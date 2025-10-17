@@ -12,16 +12,16 @@
 
 ## Patrones Usados:
 * ### Creacionales:
-__Abstract Factory 🏭:__ Ayuda a crear la familia de las mascotas (perros, gatos, etc)
-__Singleton 👾:__ Manejo de acceso a los archivos ".data"
+__Abstract Factory 🏭:__ Ayuda a crear la familia de las mascotas (perros, gatos, etc)<br>
+__Singleton 👾:__ Manejo de acceso a los archivos ".data"<br>
 __Builder 👷:__ Creación de mascotas con diferentes características 
 <br>
 
 * ### Estructurales:
-__Proxy 🔒:__ Contralo el acceso de los usuarios y admins
-__Facade 🧱:__ Generación de documentos de la mascota a la hora de la adopción
-__Bridge 🌉:__ Exportación de documentos de la mascota a HTML y PDF
-__Decorator🎄:__ Determina el tipo de mensaje y el canal por donde se enviará
+__Proxy 🔒:__ Contralo el acceso de los usuarios y admins<br>
+__Facade 🧱:__ Generación de documentos de la mascota a la hora de la adopción<br>
+__Bridge 🌉:__ Exportación de documentos de la mascota a HTML y PDF<br>
+__Decorator🎄:__ Determina el tipo de mensaje y el canal por donde se enviará<br>
 
 ## Enunciado del ejercicio 📖: 
 El proyecto consiste en desarrollar una aplicación para facilitar la adopción de mascotas, conectando refugios de animales con personas interesadas en adoptar. La plataforma tiene como objetivo simplificar el proceso de adopción, garantizar el bienestar de las mascotas y proporcionar herramientas para un seguimiento adecuado de su estado después de ser adoptadas.
