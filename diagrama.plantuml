@@ -1,0 +1,95 @@
+@startuml uml
+
+    left to right direction
+
+    class main
+
+    'Abstract Factory
+    interface MascotaFactory{
+        + crearMascota(nombre:String, raza:String, edad:int, sexo:String, size:String)
+    }
+
+    'Concrete Factory
+    interface FactoryPerro{
+        + crearMascota(nombre:String, raza:String, edad:int, sexo:String, size:String)
+    }
+    
+    'Concrete Factory
+    interface FactoryPajaro{
+        + crearMascota(nombre:String, raza:String, edad:int, sexo:String, size:String)
+    }
+    
+    'Concrete Factory
+    interface FactoryGato{
+        + crearMascota(nombre:String, raza:String, edad:int, sexo:String, size:String)
+    }
+
+    main --> MascotaFactory
+
+    FactoryPerro ..|> MascotaFactory
+    FactoryPajaro ..|> MascotaFactory
+    FactoryGato ..|> MascotaFactory
+
+    'Producto abstracto
+    abstract class Mascota{
+        - nombre: String 
+        - raza: String
+        - edad: int 
+        - sexo: String 
+        - size: String 
+        - tarjetaVacunas: TarjetaVacunas
+        - adoptado: Boolean 
+
+        + sonido() : void
+        + mostrarInfo() : void
+    }
+
+    'Producto concreto
+    class Perro{
+        - nombre: String 
+        - raza: String
+        - edad: int 
+        - sexo: String 
+        - size: String 
+        - tarjetaVacunas: TarjetaVacunas
+        - adoptado: Boolean 
+
+        + sonido() : void
+        + mostrarInfo() : void
+    } 
+
+    class Pajaro{
+        - nombre: String 
+        - raza: String
+        - edad: int 
+        - sexo: String 
+        - size: String 
+        - tarjetaVacunas: TarjetaVacunas
+        - adoptado: Boolean 
+
+        + sonido() : void
+        + mostrarInfo() : void
+    } 
+
+    class Gato{
+        - nombre: String 
+        - raza: String
+        - edad: int 
+        - sexo: String 
+        - size: String 
+        - tarjetaVacunas: TarjetaVacunas
+        - adoptado: Boolean 
+
+        + sonido() : void
+        + mostrarInfo() : void
+    }
+
+    Mascota --|> Perro
+    Mascota --|> Gato
+    Mascota --|> Pajaro
+
+    FactoryPerro ..> Perro
+    FactoryPajaro ..> Pajaro
+    FactoryGato ..> Gato
+
+@enduml
