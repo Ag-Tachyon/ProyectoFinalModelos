@@ -92,4 +92,20 @@
     FactoryPajaro ..> Pajaro
     FactoryGato ..> Gato
 
+    class MascostasProxy{
+        - ServioReal : ServicioReal
+
+        + checkUser()
+        + crearMascota(nombre:String, raza:String, edad:int, sexo:String, size:String)
+    }
+
+    class ServicioReal{
+        + crearMascota(nombre:String, raza:String, edad:int, sexo:String, size:String)
+    }
+
+    MascostasProxy ..|> MascotaFactory
+    ServicioReal ..|> MascotaFactory
+
+    MascostasProxy o-- ServicioReal
+
 @enduml
