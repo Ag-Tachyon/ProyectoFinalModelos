@@ -19,7 +19,7 @@
 
 ## Patrones Usados:
 * ### Creacionales:
-__Abstract Factory 🏭:__ Ayuda a crear la familia de las mascotas (perros, gatos, etc)<br>
+__Factory Method 🏭:__ Ayuda a crear los refugios de cada animal<br>
 __Singleton 👾:__ Manejo de acceso a los archivos ".data"<br>
 __Builder 👷:__ Creación de mascotas con diferentes características 
 <br>
