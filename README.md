@@ -6,11 +6,10 @@
 * Juan Sebastian Diaz Peña 🍡
 
 ## UML 🗺️📍: 
-![Diagrama uml del proyecto](./Bridge.png)
+![Diagrama uml del proyecto](./out/diagrama/uml.png)
 
 ## Documento de Ingeniería de Requerimientos 🤖:
 * __Link:__ https://docs.google.com/document/d/1kqV0Sha7xM_rCWYgfTJag6TEKZqSLzAMU3SfKLHwtrA/edit?usp=sharing
-* __PDF:__
 
 ## Mapa de Usuario 🧐:
 * https://trello.com/invite/b/68f7acf52211b685fdf948f0/ATTI3075b61e4319142eb530dbc88f89a4a368B0D55C/proyectofinalmodelos
