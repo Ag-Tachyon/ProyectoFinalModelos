@@ -6,7 +6,7 @@
 * Juan Sebastian Diaz Peña 🍡
 
 ## UML 🗺️📍: 
-![Diagrama uml del proyecto](../finalModelos/Bride.png)
+![Diagrama uml del proyecto](./Bride.png)
 
 >[!TIP]
 > Agregar UML XD
