@@ -8,8 +8,11 @@
 ## UML 🗺️📍: 
 ![Diagrama uml del proyecto](./Bride.png)
 
->[!TIP]
-> Agregar UML XD
+## Mapa de Usuario:
+* https://trello.com/invite/b/68f7acf52211b685fdf948f0/ATTI3075b61e4319142eb530dbc88f89a4a368B0D55C/proyectofinalmodelos
+
+>[!CAUTION]
+> El trello se puede modificar, entonces tener cuidado XD
 
 ## Patrones Usados:
 * ### Creacionales:
