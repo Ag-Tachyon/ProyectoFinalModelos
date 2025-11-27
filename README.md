@@ -6,7 +6,8 @@
 * Juan Sebastian Diaz Peña 🍡
 
 ## UML 🗺️📍: 
-![Diagrama uml del proyecto](./out/diagrama/uml.png)
+<img width="3702" height="2009" alt="uml" src="https://github.com/user-attachments/assets/c5b31026-5ba1-4b6e-9ebe-e0a2fed77fce" />
+
 
 ## Documento de Ingeniería de Requerimientos 🤖:
 * __Link:__ https://docs.google.com/document/d/1kqV0Sha7xM_rCWYgfTJag6TEKZqSLzAMU3SfKLHwtrA/edit?usp=sharing
