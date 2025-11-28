@@ -6,7 +6,7 @@
 * Juan Sebastian Diaz Peña 🍡
 
 ## UML 🗺️📍: 
-<img width="3702" height="2009" alt="uml" src="https://github.com/user-attachments/assets/c5b31026-5ba1-4b6e-9ebe-e0a2fed77fce" />
+<img width="3719" height="2505" alt="diagramaProyectoFinal" src="https://github.com/user-attachments/assets/2e406174-d707-42d9-8100-ca0ad2dc4020" />
 
 
 ## Documento de Ingeniería de Requerimientos 🤖:
@@ -16,7 +16,7 @@
 * https://trello.com/invite/b/68f7acf52211b685fdf948f0/ATTI3075b61e4319142eb530dbc88f89a4a368B0D55C/proyectofinalmodelos
 
 >[!CAUTION]
-> El trello se puede modificar, entonces tener cuidado XD
+> El trello se puede modificar, entonces tener cuidado
 
 ## Patrones Usados:
 * ### Creacionales:
